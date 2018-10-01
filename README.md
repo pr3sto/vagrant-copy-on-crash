@@ -1,2 +1,2 @@
-# vagrant-copy-on-crash
-Vagrant plugin for creating copy of virtual machine on crash
+# vagrant-state-monitor
+Vagrant plugin that monitors changes in machine state and performs action on that change
