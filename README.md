@@ -1,2 +1,2 @@
-# vagrant-state-monitor
-Vagrant plugin that monitors changes in machine state and performs action on that change
+# vagrant-state-change-listener
+Vagrant plugin for monitoring vm state changes and executing actions on changes.
