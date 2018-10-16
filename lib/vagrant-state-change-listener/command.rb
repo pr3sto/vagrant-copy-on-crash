@@ -4,6 +4,9 @@ module VagrantPlugins
     module StateChangeListener
         module Command
             class Listen < Vagrant.plugin("2", :command)
+                def self.synopsis
+                    "listens vm state changes and executes actions on changes"
+                end
 
                 def execute
                     options = {}
