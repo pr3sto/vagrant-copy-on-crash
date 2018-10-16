@@ -1,0 +1,11 @@
+en:
+  vagrant-state-change-listener:
+    command:
+      info:
+        state-changed: "VM state changed from '%{f_state}' to '%{s_state}'"
+        executing-actions: "Executing actions: '%{actions}'"
+        executed-actions-status: "Actions executed successfully: %{status}"
+        auto-stop: "Stopping listening ..."
+      error:
+        states-should-be-different: "FSTATE and SSTATE should be different"
+        vm-not-created: "The machine with the name '%{vm_name}' is not created"
